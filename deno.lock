@@ -19,5 +19,6 @@
     "dependencies": [
       "jsr:@std/assert@1"
     ]
-  }
+  },
+  "remote": {}
 }

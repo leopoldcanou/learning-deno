@@ -1,6 +1,8 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "DENO_FUTURE=1 deno run --watch main.ts",
+    "lint": "DENO_FUTURE=1 deno lint",
+    "test": "DENO_FUTURE=1 deno test"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
