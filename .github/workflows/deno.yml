@@ -39,4 +39,4 @@ jobs:
         run: DENO_FUTURE=1 deno lint
 
       - name: Run tests
-        run: deno test -A
+        run: DENO_FUTURE=1 deno test
